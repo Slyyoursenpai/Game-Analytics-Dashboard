@@ -10,7 +10,7 @@ the **User Behavior Analytics Platform for Video Games** course project.
 
 ```
 game-analytics-dashboard/
-├── app.py                          # Overview page (entry point)
+├── home.py                          # Overview page (entry point)
 ├── db.py                           # DB engine + cached query helper
 ├── schema.sql                      # CREATE TABLE statements (run once on Neon)
 ├── pages/
@@ -51,7 +51,7 @@ pip install -r requirements.txt
 cp .streamlit/secrets.toml.example .streamlit/secrets.toml
 # then edit .streamlit/secrets.toml and paste your real Neon connection string
 
-streamlit run app.py
+streamlit run home.py
 ```
 
 It'll open at `http://localhost:8501`. Every page will show "No data yet"
