@@ -14,10 +14,12 @@ game-analytics-dashboard/
 ├── db.py                           # DB engine + cached query helper
 ├── schema.sql                      # CREATE TABLE statements (run once on Neon)
 ├── pages/
-│   ├── 1_💰_Revenue_and_Games.py
-│   ├── 2_👥_Players_and_Engagement.py
-│   ├── 3_⭐_Reviews.py
-│   └── 4_📡_Live_Events.py
+│   ├── 1_Revenue_and_Games.py
+│   ├── 2_Players_and_Engagement.py
+│   ├── 3_Reviews.py
+│   └── 4_Live_Events.py
+|   ├── Player_Details.py
+|   └── 5_Admin.py
 ├── .streamlit/
 │   ├── config.toml                 # theme
 │   └── secrets.toml.example        # copy to secrets.toml, fill in your URL
